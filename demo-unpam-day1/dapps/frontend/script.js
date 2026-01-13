@@ -7,7 +7,7 @@ const namaEl = document.getElementById("nama");
 const nimEl = document.getElementById("nim");
 
 const NAMA = "Rafa Alif Ardiansyah";
-const NIM = "123456789";
+const NIM = "251011401391";
 
 // Avalanche Fuji Testnet chainId (hex)
 const AVALANCHE_FUJI_CHAIN_ID = "0xa869";
@@ -101,3 +101,4 @@ async function connectWallet() {
 
 // ================= EVENT =================
 connectBtn.addEventListener("click", connectWallet);
+
